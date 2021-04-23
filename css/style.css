@@ -1,0 +1,365 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+h1 {
+	color: white;
+	font-size: 48px;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	font-size: 36px;
+	text-align: center;
+}
+
+h3 {
+	color: #ffd61a;
+	font-size: 24px;
+	text-align: center;
+}
+
+h4 {
+	color: #222222;
+	font-size: 24px;
+	text-align: center;
+	line-height: 1.75;
+}
+
+p {
+	color: black;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.75;
+}
+
+
+
+/*ーーーーーーーーーーー*/
+/*ヘッダー
+/*ーーーーーーーーーーー*/
+
+.mainbg {  
+    position: relative;
+}
+
+.mainbg_text1 {
+	position: absolute;
+    top: 30px;
+    left: 30px;
+    color: white;
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+.mainbg_text2 {
+	osition: absolute;
+    top: 50px;
+    left: 50px;
+    color: white;
+	font-size: 36px;
+	margin-top: 20px;
+}
+
+/*ーーーーーーーーーーー*/
+/*ヘッダーナビ
+/*ーーーーーーーーーーー*/
+
+.header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.header p {
+	margin-right: 70px;
+}
+
+.header ul {
+	display: flex;
+}
+
+.header li {
+	margin-left: 3rem;
+	margin-right: 2rem;
+}
+
+
+/*ーーーーーーーーーーー*/
+/*about文言エリア
+/*ーーーーーーーーーーー*/
+
+.about1 {
+	margin-top: 120px;
+	text-align: center;
+}
+.about2 {
+	margin-top: 24px;
+	text-align: center;
+}
+.about3 {
+	margin-top: 64px;
+	text-align: center;
+}
+.about4 {
+	margin-top: 40px;
+	text-align: center;
+}
+.about5 {
+	margin-top: 20px;
+	text-align: center;
+}
+.about6 {
+	margin-top: 20px;
+	margin-bottom: 80px;
+	text-align: center;
+
+}
+
+/*ーーーーーーーーーーー*/
+/*スライドショー
+/*ーーーーーーーーーーー*/
+
+.slide {
+	position: relative; /* 親要素にrelativeを指定 */
+   }
+	
+   .slide img {
+	position: absolute; /* absoluteで画像を重ねる */
+	display: none; /* 画像を非表示に非表示 */
+   }
+   
+
+
+/*ーーーーーーーーーーー*/
+/*Course文言 
+/*ーーーーーーーーーーー*/
+
+.course1 {
+	margin-top: 64px;
+	text-align: center;
+}
+.course2 {
+	margin-bottom: 64px;
+	margin-top: 10px;
+	line-height:  2em;
+	text-align: center;
+}
+
+
+
+
+/*ーーーーーーーーーーー*/
+/*写真入り６つボックス 
+/*ーーーーーーーーーーー*/
+
+  .item {
+	display: flex;
+	flex-wrap: nowrap;
+  }
+  .item:nth-child(odd) {
+	flex-direction: row-reverse;
+  }
+  .item-image {
+	width: 50%;
+  }
+  .item-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  .item-text {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	padding: 3em;
+	background: #eee;
+  }
+
+/*ーーーーーーーーーーー*/
+/*ニュース
+/*ーーーーーーーーーーー*/
+
+.news1 {
+	margin-top: 64px;
+	text-align: center;
+}
+
+.news2 {
+	margin-bottom: 64px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+/*ーーーーーーーーーーー*/
+/*写真入り３つボックス 
+/*ーーーーーーーーーーー*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ーーーーーーーーーーー*/
+/*More 
+/*ーーーーーーーーーーー*/
+
+/*ーーーーーーーーーーー*/
+/*ACCESS
+/*ーーーーーーーーーーー*/
+
+.access1 {
+	margin-top: 64px;
+	text-align: center;
+}
+
+.access2 {
+	margin-bottom: 64px;
+	margin-top: 24px;
+	text-align: center;
+}
+
+
+
+/*ーーーーーーーーーーー*/
+/*Gマップ
+/*ーーーーーーーーーーー*/
+
+/*ーーーーーーーーーーー*/
+/*学校情報
+/*ーーーーーーーーーーー*/
+
+table tr {
+	text-align: center;
+}
+
+table td {
+	text-align: left;
+	padding-left: 48px;
+	padding-bottom: 24px;
+}
+
+table {
+	margin: auto;
+	margin-top: 64px;
+	margin-bottom: 80px;
+	width: auto;
+}
+
+
+
+
+
+.school {
+	margin-top: 64px;
+	margin-bottom: 80px;
+}
+
+/*ーーーーーーーーーーー*/
+/*コンタクト文言
+/*ーーーーーーーーーーー*/
+
+.contact1 {
+    margin-bottom: 50px;
+}
+
+.contact2 {
+    margin-bottom: 32px;
+}
+
+.contact3 {
+    margin-bottom: 80px;
+}
+
+
+
+
+/*ーーーーーーーーーーー*/
+/*コンタクトフォーム
+/*ーーーーーーーーーーー*/
+
+/*ーーーーーーーーーーー*/
+/*フッター
+/*ーーーーーーーーーーー*/
+
+footer {
+	background: #707070;
+	background-size: 40px;
+}
+
+footer p {
+	color: white;
+	margin-top: 32px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*どの部分のcssに対して
+命令をしているのかコメントを
+記載しよう！
+---------------------*/
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
